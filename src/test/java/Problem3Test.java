@@ -5,6 +5,7 @@ import static org.junit.Assert.*;
 
 // DO NOT REMOVE OR CHANGE ANYTHING HERE!
 public class Problem3Test {
+
     @Test
     public void testMovieActionEquals() {
         MovieAction m = new MovieAction("PG13", "ti1");
