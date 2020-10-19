@@ -19,6 +19,7 @@ public abstract class Movie implements StoreMediaOperations {
         // homework
         rating = anotherMovie.rating;
         title = anotherMovie.title;
+        id = anotherMovie.id;
     }
 
     //This override I saw was from https://www.infoworld.com/article/3305792/comparing-java-objects-with-equals-and-hashcode.html
