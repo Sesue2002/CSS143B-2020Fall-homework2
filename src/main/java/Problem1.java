@@ -9,9 +9,10 @@ public class Problem1 {
     Using the switch statement, we update the array as we go.
      */
 
-    //Got some help from this website for how the function is written
-    //https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
-    // Do not change signature (function name, parameters type, and return type)
+    /*Got some help from this website for how the function is written
+    https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
+    Do not change signature (function name, parameters type, and return type)
+     */
     public static void colorSort(int[] nums) {
         int for0s = 0;
         int for1s = 0;
