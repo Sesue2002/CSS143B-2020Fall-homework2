@@ -8,6 +8,7 @@ public class Problem1 {
     After we set it to the correct range we update the amount in it for that range.
     Using the switch statement, we update the array as we go.
      */
+
     //Got some help from this website for how the function is written
     //https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
     // Do not change signature (function name, parameters type, and return type)
