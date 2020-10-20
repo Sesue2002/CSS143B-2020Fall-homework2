@@ -9,7 +9,6 @@ public class Problem1 {
     Using the switch statement, we update the array as we go.
      */
 
-
     //Got some help from this website for how the function is written
     //https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
     // Do not change signature (function name, parameters type, and return type)
@@ -17,7 +16,7 @@ public class Problem1 {
         int for0s = 0;
         int for1s = 0;
         int for2s = nums.length - 1;
-        int tmp = 0;
+        int tmp;
         while (for1s <= for2s){
             switch (nums[for1s]){
                 case 0:{
