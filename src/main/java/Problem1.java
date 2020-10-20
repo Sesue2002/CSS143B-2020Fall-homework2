@@ -1,10 +1,11 @@
 public class Problem1 {
+//let
 
     public static void colorSort(int[] nums) {
         int for0s = 0;
         int for1s = 0;
         int for2s = nums.length - 1;
-        int tmp = 0;
+        int tmp;
         while (for1s <= for2s){
             switch (nums[for1s]){
                 case 0:{
