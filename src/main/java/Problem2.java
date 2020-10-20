@@ -2,8 +2,15 @@ public class Problem2 {
 
     /*
     Describe your algorithm here in up to 5 sentences:
+    The algorithm I used is a double pointer style.
+    We set the first pointer to 0 and the other to 1, unless the array is empty.
+    While we go through the loop we check to see if the first pointer and second equal.
+    If not we increase the first and second pointer while inputting the first into the second.
+    If they are equal, the second skips it, then we return i + 1 once the loop is done.
      */
 
+    //Got some help also from this website
+    //https://medium.com/swlh/javascript-remove-duplicates-from-sorted-array-in-place-d3d959fb4d77
     // Do not change signature (function name, parameters and return type)
     // Do not use extra space for another array. Solution to be in-pace with O(1) extra memory
     public static int remove(int[] nums) {
